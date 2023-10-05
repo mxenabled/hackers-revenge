@@ -19,7 +19,7 @@ gem "bootsnap", ">= 1.1.0", :require => false
 gem "faker"
 
 # Use sidekiq for deferred processing
-gem "sidekiq", "< 6"
+gem "sidekiq", "< 7"
 
 group :development, :test do
   # Test with RSpec and FactoryBot
